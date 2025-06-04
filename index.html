@@ -3,109 +3,93 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Pasión por el Surf</title>
+  <title>Surf y Tecnología</title>
   <style>
     body {
-      font-family: 'Arial', sans-serif;
       margin: 0;
-      background: #e0f7fa;
-      color: #004d40;
+      font-family: Arial, sans-serif;
+      background-color: #0a0a0a;
+      color: #ffffff;
     }
 
     header {
-      background: url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1600&q=80') no-repeat center center;
-      background-size: cover;
-      color: white;
-      padding: 100px 20px;
+      background-color: #1a1a1a;
+      padding: 20px;
       text-align: center;
     }
 
-    header h1 {
-      font-size: 3em;
-      text-shadow: 2px 2px 4px #000;
+    header img {
+      width: 120px;
+      height: auto;
     }
 
-    nav {
-      background: #00796b;
-      padding: 10px;
+    h1 {
+      margin: 10px 0 0 0;
+      color: #00ffcc;
+    }
+
+    .intro {
       text-align: center;
+      padding: 20px;
     }
 
-    nav a {
-      color: white;
-      margin: 0 15px;
-      text-decoration: none;
-      font-weight: bold;
+    .intro img {
+      width: 250px;
+      max-width: 90%;
+      margin-top: 10px;
     }
 
-    section {
-      padding: 40px 20px;
-      max-width: 900px;
-      margin: auto;
-    }
-
-    .videos {
+    .gallery {
       display: flex;
       flex-wrap: wrap;
-      gap: 20px;
       justify-content: center;
+      gap: 20px;
+      padding: 40px 20px;
     }
 
-    .videos iframe {
-      width: 100%;
-      max-width: 420px;
-      height: 235px;
-      border: none;
-      border-radius: 8px;
+    .gallery img {
+      width: 300px;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 10px;
+      border: 2px solid #00ffcc;
+      transition: transform 0.3s ease;
+    }
+
+    .gallery img:hover {
+      transform: scale(1.05);
     }
 
     footer {
-      background: #004d40;
-      color: white;
       text-align: center;
       padding: 20px;
+      background-color: #1a1a1a;
+      color: #aaa;
     }
   </style>
 </head>
 <body>
+
   <header>
-    <h1>Pasión por el Surf</h1>
-    <p>Trucos y maniobras espectaculares sobre las olas</p>
+    <img src="WhatsApp Image 2025-06-04 at 11.30.57 AM.jpeg" alt="Logo">
+    <h1>Surf & Tecnología</h1>
   </header>
 
-  <nav>
-    <a href="#">Inicio</a>
-    <a href="#">Videos</a>
-    <a href="#">Clases</a>
-    <a href="#">Contacto</a>
-  </nav>
+  <div class="intro">
+    <p>Combinando adrenalina con creatividad digital.</p>
+    <img src="WhatsApp Image 2025-06-04 at 11.31.12 AM.jpeg" alt="Diseño creativo">
+  </div>
 
-  <section>
-    <h2>Surf en acción</h2>
-    <p>Descubre los mejores trucos y maniobras de surf en este video tour lleno de adrenalina.</p>
-
-    <div class="videos">
-      <iframe src="https://www.youtube.com/embed/2XkV6IpV2Y0" title="Surf Tricks 1" allowfullscreen></iframe>
-      <iframe src="https://www.youtube.com/embed/qTsdrlFfx1Y" title="Surf Tricks 2" allowfullscreen></iframe>
-      <iframe src="https://www.youtube.com/embed/hyC3rHfMl2g" title="Surf Tricks 3" allowfullscreen></iframe>
-=======
-    <h2>Sobre el Surf</h2>
-    <p>El surf no es solo un deporte; es una forma de vida. Sentir la energía del océano, deslizarse sobre las olas y estar en armonía con la naturaleza es una experiencia única.</p>
-  </section>
-
-  <section>
-    <h2>Galería de Surf</h2>
-    <div class="gallery">
-      <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=80" alt="Surf 1">
-      <img src="https://images.unsplash.com/photo-1500375592092-40eb2168fd21?auto=format&fit=crop&w=800&q=80" alt="Surf 2">
-      <img src="https://images.unsplash.com/photo-1536005062432-7e2d9439b2f4?auto=format&fit=crop&w=800&q=80" alt="Surf 3">
-  
->>>>>>> 726eb064ee3dd1365012c1fcb0d6f4e5881f0db3
-    </div>
+  <section class="gallery">
+    <img src="https://images.unsplash.com/photo-1549921296-3a6b31cfd4f3?auto=format&fit=crop&w=800&q=80" alt="Surf 1">
+    <img src="https://images.unsplash.com/photo-1508264165352-258db2ebd59b?auto=format&fit=crop&w=800&q=80" alt="Surf 2">
+    <img src="https://images.unsplash.com/photo-1506784983877-45594efa4cbe?auto=format&fit=crop&w=800&q=80" alt="Surf 3">
+    <img src="https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?auto=format&fit=crop&w=800&q=80" alt="Surf 4">
   </section>
 
   <footer>
-    © 2025 Pasión por el Surf. Todos los derechos reservados.
+    © 2025 Surf & Tecnología. Todos los derechos reservados.
   </footer>
+
 </body>
 </html>
