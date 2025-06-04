@@ -13,7 +13,7 @@
     }
 
     header {
-      background: url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e') no-repeat center center;
+      background: url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1600&q=80') no-repeat center center;
       background-size: cover;
       color: white;
       padding: 100px 20px;
@@ -44,17 +44,18 @@
       margin: auto;
     }
 
-    .gallery {
+    .videos {
       display: flex;
       flex-wrap: wrap;
-      gap: 10px;
+      gap: 20px;
       justify-content: center;
     }
 
-    .gallery img {
-      width: 280px;
-      height: 180px;
-      object-fit: cover;
+    .videos iframe {
+      width: 100%;
+      max-width: 420px;
+      height: 235px;
+      border: none;
       border-radius: 8px;
     }
 
@@ -69,27 +70,24 @@
 <body>
   <header>
     <h1>Pasión por el Surf</h1>
-    <p>Donde las olas encuentran el alma</p>
+    <p>Trucos y maniobras espectaculares sobre las olas</p>
   </header>
 
   <nav>
     <a href="#">Inicio</a>
-    <a href="#">Sobre Nosotros</a>
-    <a href="#">Galería</a>
+    <a href="#">Videos</a>
+    <a href="#">Clases</a>
     <a href="#">Contacto</a>
   </nav>
 
   <section>
-    <h2>Sobre el Surf</h2>
-    <p>El surf no es solo un deporte, es una forma de vida. Sentir la energía del océano, deslizarse sobre las olas y estar en armonía con la naturaleza es una experiencia única.</p>
-  </section>
+    <h2>Surf en acción</h2>
+    <p>Descubre los mejores trucos y maniobras de surf en este video tour lleno de adrenalina.</p>
 
-  <section>
-    <h2>Galería de Surf</h2>
-    <div class="gallery">
-      <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e" alt="Surf 1">
-      <img src="https://images.unsplash.com/photo-1504893524553-b8553fbb6a67" alt="Surf 2">
-      <img src="https://images.unsplash.com/photo-1526401485004-8f1f3d6b76b4" alt="Surf 3">
+    <div class="videos">
+      <iframe src="https://www.youtube.com/embed/2XkV6IpV2Y0" title="Surf Tricks 1" allowfullscreen></iframe>
+      <iframe src="https://www.youtube.com/embed/qTsdrlFfx1Y" title="Surf Tricks 2" allowfullscreen></iframe>
+      <iframe src="https://www.youtube.com/embed/hyC3rHfMl2g" title="Surf Tricks 3" allowfullscreen></iframe>
     </div>
   </section>
 
