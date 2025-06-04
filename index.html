@@ -1,13 +1,100 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Pasión por el Surf</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      background: #e0f7fa;
+      color: #004d40;
+    }
+
+    header {
+      background: url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e') no-repeat center center;
+      background-size: cover;
+      color: white;
+      padding: 100px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 3em;
+      text-shadow: 2px 2px 4px #000;
+    }
+
+    nav {
+      background: #00796b;
+      padding: 10px;
+      text-align: center;
+    }
+
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    section {
+      padding: 40px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      justify-content: center;
+    }
+
+    .gallery img {
+      width: 280px;
+      height: 180px;
+      object-fit: cover;
+      border-radius: 8px;
+    }
+
+    footer {
+      background: #004d40;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+  </style>
 </head>
 <body>
-    <h1>Practicando con github</h1>
-    <h2>Estamos avanzando en github</h2>
-    
+  <header>
+    <h1>Pasión por el Surf</h1>
+    <p>Donde las olas encuentran el alma</p>
+  </header>
+
+  <nav>
+    <a href="#">Inicio</a>
+    <a href="#">Sobre Nosotros</a>
+    <a href="#">Galería</a>
+    <a href="#">Contacto</a>
+  </nav>
+
+  <section>
+    <h2>Sobre el Surf</h2>
+    <p>El surf no es solo un deporte, es una forma de vida. Sentir la energía del océano, deslizarse sobre las olas y estar en armonía con la naturaleza es una experiencia única.</p>
+  </section>
+
+  <section>
+    <h2>Galería de Surf</h2>
+    <div class="gallery">
+      <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e" alt="Surf 1">
+      <img src="https://images.unsplash.com/photo-1504893524553-b8553fbb6a67" alt="Surf 2">
+      <img src="https://images.unsplash.com/photo-1526401485004-8f1f3d6b76b4" alt="Surf 3">
+    </div>
+  </section>
+
+  <footer>
+    © 2025 Pasión por el Surf. Todos los derechos reservados.
+  </footer>
 </body>
 </html>
